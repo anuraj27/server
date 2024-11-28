@@ -2,6 +2,7 @@ import json
 import os
 from pathlib import Path
 
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 CLIENT_SECRET_PATH = os.path.join(BASE_DIR, 'shopify_stats', 'client_secret1.json')
